@@ -1,0 +1,47 @@
+# Compiled binaries
+/bin/
+/build/
+/*.exe
+/*.out
+/*.o
+/*.a
+/*.so
+/*.dylib
+/*.dll
+
+# Object files and dependency files
+*.o
+*.obj
+*.lo
+*.la
+*.a
+*.lib
+*.d
+*.dSYM/
+*.pch
+
+# CMake build system files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+CTestTestfile.cmake
+Testing/
+
+# Generated Makefile
+/build/Makefile
+
+# Make build artifacts
+*.dep
+*.map
+
+# Editor / IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS-specific
+.DS_Store
+Thumbs.db
